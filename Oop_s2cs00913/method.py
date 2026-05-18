@@ -6,6 +6,7 @@ class Person:
     def printname(self):
         print(self.fname, self.lname)
 
+x = Person("John", "Doe")
 x.printname()
 
 class Student(Person):
