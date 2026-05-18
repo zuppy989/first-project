@@ -36,22 +36,32 @@
 # print("division: ",calc.div( c,y))
 
 
-class Tv:
-    def On(self):
-        print("Tv on....")
+# class Tv:
+#     def On(self):
+#         print("Tv on....")
 
-class Fan:
-    def On(self):
-        print("Fan on....")
+# class Fan:
+#     def On(self):
+#         print("Fan on....")
 
-class Mixi:
-    def On(self):
-        print("Mixi on....")
+# class Mixi:
+#     def On(self):
+#         print("Mixi on....")
 
-tv = Tv()
-fan = Fan()
-mixi = Mixi()
+# tv = Tv()
+# fan = Fan()
+# mixi = Mixi()
 
-tv.On()
-fan.On()
-mixi.On()
+# tv.On()
+# fan.On()
+# mixi.On()
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+p1 = Person("John", 36)
+
+print(p1.name)
+print(p1.age)
