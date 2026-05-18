@@ -1,9 +1,15 @@
 class Person:
-    def __init__(self, name, age):
-        self.name = name
+    def __init__(self, fname, lname):
+        self.fname = fname
+        self.lname = lname
 
-    def greet(self):
-        print("Hello, my name is " + self.name)
+    def printname(self):
+        print(self.fname, self.lname)
 
-p1 = Person("John", 36)
-p1.greet()
+x.printname()
+
+class Student(Person):
+    pass
+
+x = Student("Mike", "Olsen")
+x.printname()
